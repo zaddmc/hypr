@@ -1,0 +1,22 @@
+[2025-09-03 12:01:57.408] [info] Using configuration file /home/zadd/.config/waybar/config.jsonc
+[2025-09-03 12:01:57.410] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2025-09-03 12:01:57.410] [info] Using CSS file /home/zadd/.config/waybar/style.css
+[2025-09-03 12:01:57.415] [info] Hyprland IPC starting
+[2025-09-03 12:01:57.416] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-09-03 12:01:57.416] [warning] 'swap-icon-label' must be a bool.
+Fontconfig warning: using without calling FcInit()
+[2025-09-03 12:01:57.614] [info] Bar configured (width: 1920, height: 25) for output: eDP-1
+[2025-09-03 12:01:58.606] [info] Quitting.
+[2025-09-03 12:01:58.612] [info] Hyprland IPC stopping...
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (1), removing 8.3MB
+[LOG] Preloaded target /home/zadd/.config/hypr/wallpapers/neoncity.png in 171.80ms -> Pixel size: [3840, 2160]
+[LOG] Buffer created for target /home/zadd/.config/hypr/wallpapers/neoncity.png, Shared Memory usage: 8.3MB
+[LOG] Total SM usage for all buffers: 8.3MB
+[LOG] hyprpaper socket started at /run/user/1000/hypr/4e242d086e20b32951fdc0ebcbfb4d41b5be8dcc_1756879212_1274796985/.hyprpaper.sock (fd: 5)
+[LOG] configure for eDP-1
+[LOG] configure for eDP-1
+[LOG] Image data for eDP-1: /home/zadd/.config/hypr/wallpapers/neoncity.png at [-0.00, 0.00], scale: 0.50 (original image size: [3840, 2160])
+[LOG] Submitting viewport dest size 1920x1080 for 556c97262720
+[LOG] handlePreferredScale: 1.00 for 556c97262720
