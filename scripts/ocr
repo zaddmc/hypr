@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Take a region screenshot, run OCR, and copy text to clipboard
+
+IMG=$(mktemp /tmp/ocr-XXXX.png)
+
+# Select region and save screenshot
+grim -g "$(slurp)" "$IMG"
+
+# Run OCR and copy to clipboard
+tesseract "$IMG" - | wl-copy
+
+# Cleanup
+rm "$IMG"
