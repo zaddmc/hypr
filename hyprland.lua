@@ -1,8 +1,16 @@
 -- #############################
 -- ### ENVIRONMENT VARIABLES ###
 -- #############################
-hl.env("XCURSOR_SIZE", "2")
-hl.env("HYPRCURSOR_SIZE", "2")
+local envs = {
+    XCURSOR_SIZE = "2",
+    HYPRCURSOR_SIZE = "2",
+    ADW_DISABLE_PORTAL = "1",
+    GTK_THEME = "Adwaita:dark",
+    QT_STYLE_OVERRIDE = "Adwaita-Dark",
+}
+for key, value in pairs(envs) do
+    hl.env(key, value)
+end
 
 -- #################
 -- ### AUTOSTART ###
